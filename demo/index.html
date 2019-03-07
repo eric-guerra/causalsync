@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CausalSync demo</title>
+  <style>
+    body { margin: 0; font: 14px/1.4 system-ui, sans-serif; background: #eef2f6; }
+    .board { display: flex; gap: 14px; padding: 16px; align-items: flex-start; }
+    .column { background: #fff; border-radius: 8px; padding: 10px; width: 260px; }
+    .column h2 { font-size: 15px; margin: 0 0 8px; }
+    .column ul { list-style: none; padding: 0; margin: 0 0 8px; }
+    .card { display: flex; gap: 6px; align-items: center; background: #f6f8fa; border-radius: 6px; padding: 6px; margin-bottom: 6px; }
+    .card input { flex: 1; border: 0; background: transparent; font: inherit; }
+    .conflict { color: #c2410c; }
+    button { border: 1px solid #cbd5e1; background: #fff; border-radius: 4px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="./main.tsx"></script>
+</body>
+</html>
